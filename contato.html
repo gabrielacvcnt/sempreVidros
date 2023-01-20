@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>Contato - Sempre Vidros</title>
+
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logosv.png" class="logo" alt="Logo da Sempre Vidros"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<div class="coluna">
+					<div class="ladoA">
+				        <label for="nomesobrenome">Nome e sobrenome</label>
+				        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				        <label for="email">Email</label>
+				        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				        <label for="telefone">Telefone</label>
+				        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				        <label for="mensagem">Mensagem</label>
+				        <textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
+
+				        <input type="submit" value="Enviar formulário" class="enviar">
+				    </div>
+
+				    <div class="ladoB">
+				        <fieldset>
+					        <legend>Preferência de contato</legend>
+					        <label for="radio-email">
+						        <input type="radio" name="contato" value="email" id="radio-email">
+						        E-mail
+						    </label>
+
+						    <label for="radio-telefone">
+						        <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+						        Telefone
+						    </label>
+
+						    <label for="radio-whatsapp">
+						        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+						        WhatsApp
+						    </label>
+					    </fieldset>
+
+				    	<legend class="prefhor">Preferência de horário</legend>
+					    <select class="horario">
+					    	<option>Manhã</option>
+					    	<option>Tarde</option>
+					    	<option>Noite</option>
+					    </select>
+
+						<table>
+						    <thead>
+						        <tr>
+						            <th>Dia</th>
+						            <th>Horário</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						            <td>Segunda a Sexta</td>
+						            <td>8h - 18h</td>
+						        </tr>
+						    </tbody>
+						</table>
+				    </div>
+			    </div>
+    		</form>
+		</main>
+
+		<footer>
+			<p>&copy; Copyright Sempre Vidros - 2023</p>
+		</footer>
+	</body>
+</html>
