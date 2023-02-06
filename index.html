@@ -15,13 +15,15 @@
 
 	<body>
 		<header>
-			<div class="caixa">
+			<div id="caixa-header">
 				<h1><img class="logo" src="logosv.png"></h1>
 
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">Início</a></li>
 						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="">Clientes</a></li>
+						<li><a href="">Galeria</a></li>
 						<li><a href="contato.html">Contato</a></li>
 					</ul>
 				</nav>
@@ -29,48 +31,54 @@
 		</header>
 
 		<main>
-			<section class="principal">
-				<h2 class="titulo-principal">Sobre a Sempre Vidros</h2>
+			<div id="caixa-principal">
+				<div class="texto-principal">
+					<h2 class="titulo-principal">Sobre a Sempre Vidros</h2>
 
-				<p>Consagrada com 25 anos de serviço de qualidade, a <strong>Sempre Vidros</strong> traz para o mercado o que há de melhor no setor de serviços de vidraçaria. Fundada em 1998, a Sempre Vidros é destaque na grande João Pessoa e conquista novos clientes a cada dia.</p>
+					<p>Consagrada com 30 anos de atuação no ramo de serviços, a <strong>Sempre Vidros</strong> traz ao mercado o que há de melhor no setor de serviços de vidraçaria. Fundada nos anos 90, a Sempre Vidros é destaque na grande João Pessoa e conquista novos clientes a cada dia.</p>
 
-				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar estrutura e qualidade aos clientes".</strong></em></p>
+					<p><em>Nossa maior missão é: <strong id="missao">"Proporcionar estrutura e qualidade aos clientes".</strong></em></p>
 
-				<p>Carregamos uma visão sofisticada de arquitetura, design e vidros, possuindo profissionais experientes e uma clientela variada. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			</section>
+					<p>Carregamos uma visão sofisticada de arquitetura, design e vidros, possuindo profissionais experientes e uma clientela variada. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação aos nossos clientes.</p>
+				</div>
 			
-			<img class="sv" src="sv.jpg">
+				<img class="img1" src="home.jpg">
+			</div>
 
-			<section class="mapa">
-				<h3 class="titulo-principal">Nosso estabelecimento</h3>
-				<p>Nosso estabelecimento está localizado na região mais central entre Cabedelo e João Pessoa.</p>
-
-				<div class="mapa-conteudo">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.669755063319!2d-34.848955585309575!3d-7.048038194909387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acde094fd0d821%3A0x5e8b1fb6f9c887ab!2sAv.%20Mar%20das%20Antilhas%2C%201626%20-%20Intermares%2C%20Cabedelo%20-%20PB%2C%2058310-000!5e0!3m2!1spt-BR!2sbr!4v1674004546074!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				</div>
-			</section>
-
-			<section class="beneficios">
-				<h3 class="titulo-principal">Benefícios</h3>
-
-				<div class="conteudo-beneficios">
-					<ul class="lista-beneficios">
-				        <li class="itens">Escolha dos produtos</li>
-				        <li class="itens">Profissionais Qualificados</li>
-				        <li class="itens">Mais de 20 anos de experiência</li>
-				        <li class="itens">Parceiros</li>
-				        <li class="itens">Entrega de resultado</li>
-					</ul>
+			<div class="caixa-mapa">
+				<div class="texto-mapa">
+					<h3 class="titulo-mapa">Nosso estabelecimento</h3>
+					<p>Nosso estabelecimento está localizado na região mais central entre Cabedelo e João Pessoa.</p>
 				</div>
 
-				<div><img src="sv2.jpg" class="sv2"></div>
-			</section>
+				<div class="conteudo-mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.669755063319!2d-34.848955585309575!3d-7.048038194909387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acde094fd0d821%3A0x5e8b1fb6f9c887ab!2sAv.%20Mar%20das%20Antilhas%2C%201626%20-%20Intermares%2C%20Cabedelo%20-%20PB%2C%2058310-000!5e0!3m2!1spt-BR!2sbr!4v1674004546074!5m2!1spt-BR!2sbr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>
 
-			<section class="video">
+			<div id="caixa-beneficios">
+				<div class="texto-beneficios">
+					<h3 class="titulo-beneficios">Benefícios</h3>
+					
+					<div>
+						<ul class="lista-beneficios">
+							<li class="itens">Escolha dos produtos</li>
+							<li class="itens">Profissionais Qualificados</li>
+							<li class="itens">Mais de 20 anos de experiência</li>
+							<li class="itens">Parceiros</li>
+							<li class="itens">Entrega de resultado</li>
+						</ul>
+					</div>
+				</div>
+
+				<img class="img2" src="sv.jpg">
+			</div>
+
+			<div class="video">
 				<div>
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/hZa7D6iFcH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<iframe width="100%" height="450" src="https://www.youtube.com/embed/hZa7D6iFcH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
-			</section>
+			</div>
 		</main>
 
 		<footer>

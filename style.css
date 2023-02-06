@@ -1,30 +1,25 @@
-/*CSS PÁGINA HOME */
 
-.caixa{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
+/* CSS PÁGINA INÍCIO */
 
-header{
+/*======================================================CABEÇALHO=================================================================*/
+#caixa-header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+
     background: #BBBBBB;
-    padding: 20px 0;
 }
 
 .logo{
-    width: 300px;
-    height: 150px;
+    width: 250;
+    height: 100px;
     filter: contrast(80%);
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-}
-
-nav{
-    position: absolute;
-    top: 65px;
-    right: 0;
 }
 
 nav li{
@@ -36,7 +31,7 @@ nav a{
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -45,15 +40,24 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.principal{
-    padding: 3em 0;
+/*========================================================SOBRE==================================================================*/
+
+#caixa-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 2em 0em 2em;
+}
+
+.texto-principal{
+    margin: 4em 3em 2em 3em;
     background: #FEFEFE;
-    width: 940px;
-    margin: 0 auto;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .titulo-principal{
-    text-align: center;
+    text-align: left;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
@@ -61,6 +65,7 @@ nav a:hover{
 
 .principal p{
     margin: 0 0 1em;
+    letter-spacing: 3px;
 }
 
 .principal strong{
@@ -72,69 +77,92 @@ nav a:hover{
 }
 
 #missao{
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.sv{
-    width: 100%;
-}
-
-.mapa {
-    padding: 3em 0;
-}
-
-.mapa p {
-    margin: 0 0 2em;
-    text-align: center;
-}
-
-.mapa-conteudo {
-    width: 940px;
-    margin: 0 auto;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 3em 0;
-}
-
-.conteudo-beneficios {
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-beneficios {
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.itens {
-    line-height: 1.5;
-}
-
-.itens:first-child {
-    font-weight: bold;
-}
-
-.sv2 {
-    width: 25%;
-    float: right;
-    margin-top: -113px;
-    margin-right: 420px;
-    margin-bottom: 90px;
+.img1{
+    box-sizing: border-box;
+    margin: 3em 2em;
+    
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 0 grey, -5px -5px 30px 0 #b9e5cc;
+    box-shadow: 15px 15px 15px 0 #191a0a63;
 }
 
-.sv2:hover{
+.img1:hover{
+    opacity: 0.8;
+}
+/*==========================================================MAPA==================================================================*/
+
+.caixa-mapa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 2em 2em 0em 2em;
+}
+
+.texto-mapa{
+    width: 600px;
+    height: auto;
+    margin: 3em 2em 2em 3em;
+
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+    line-height: 30px;
+}
+
+.titulo-mapa{
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.conteudo-mapa {
+    width: 800px;
+    height: auto;
+    margin: 2em 0em 2em 3em;
+}
+
+/*========================================================BENEFÍCIOS==============================================================*/
+
+#caixa-beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    padding: 2em 2em 0em 2em;
+}
+
+.texto-beneficios{
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
+    line-height: 30px;
+}
+
+.titulo-beneficios{
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.img2 {
+    float: right;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 20px 20px 20px 0 grey;
+}
+
+.img2:hover{
     opacity: 0.8;
 }
 
+/*================================================================================================================================*/
+
 .video {
-    width: 560px;
-    margin: 2em auto;
+    width: 800px;
+    height: auto;
+    padding: 2em 2em;
 }
 
 footer{
@@ -142,6 +170,7 @@ footer{
     padding: 25px 0;
 }
 
+/*================================================================================================================================*/
 
 /* CSS PÁGINA SERVIÇOS */
 
