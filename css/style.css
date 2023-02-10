@@ -2,7 +2,7 @@
 /* CSS PÁGINA INÍCIO */
 
 /*======================================================CABEÇALHO=================================================================*/
-#caixa-header{
+.caixa-header{
     display:flex;
     flex-direction: row;
     align-items: center;
