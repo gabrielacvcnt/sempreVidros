@@ -1,0 +1,12 @@
+.apresentacao__img{
+    align-content: center;
+    box-shadow: 15px 15px 15px 0 #191a0a63;
+    box-sizing: border-box;
+    margin: 1em 1em 1em 1em;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.apresentacao__img:hover{
+    opacity: 0.8;
+}

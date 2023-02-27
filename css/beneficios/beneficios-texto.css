@@ -1,0 +1,8 @@
+.beneficios__texto{
+    background: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 2em 3em 2em 3em;
+    text-align: justify;
+}

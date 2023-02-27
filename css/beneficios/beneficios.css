@@ -1,0 +1,6 @@
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 2em 0em 2em;
+}

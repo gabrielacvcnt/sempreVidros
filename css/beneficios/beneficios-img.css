@@ -1,0 +1,13 @@
+.beneficios__img {
+    box-shadow: 15px 15px 15px 0 #191a0a63;   
+    box-sizing: border-box;
+    height: auto;
+    margin: 3em 2em;
+    opacity: 1;
+    transition: 400ms;
+    width: 400px;
+}
+
+.beneficios__img:hover{
+    opacity: 0.8;
+}

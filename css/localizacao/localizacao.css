@@ -1,0 +1,12 @@
+.localizacao {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 2em 2em 0em 2em;
+}
+
+.mapa {
+    height: auto;
+    margin: 2em 0em 2em 3em;
+    width: 800px;
+}

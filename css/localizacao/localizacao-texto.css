@@ -1,0 +1,9 @@
+.localizacao__texto{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    line-height: 30px;
+    margin: 3em 2em 2em 3em;
+    text-align: end;
+    width: 600px;
+}

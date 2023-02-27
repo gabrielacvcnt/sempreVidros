@@ -1,0 +1,12 @@
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 3em 2em 3em;
+    text-align: left;
+}
+
+.apresentacao p{
+    letter-spacing: 3px;
+    margin: 0 0 1em;
+}
