@@ -30,6 +30,7 @@
 					<li class="menu__item"><a class="menu__link" href="clientes.html">Clientes</a></li>
 					<li class="menu__item"><a class="menu__link" href="galeria.html">Galeria</a></li>
 					<li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+
 				</ul>
 			</nav>
 		</div>
@@ -39,43 +40,41 @@
 			<form class="form-contato">
 				<div class="ladoA">
 					<label for="nome-sobrenome">Nome e sobrenome</label>
-					<input type="text" id="nome-sobrenome" class="input-padrao" required>
+						<input type="text" id="nome-sobrenome" class="input-padrao" required>
 
 					<label for="email">Email</label>
-					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+						<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
 					<label for="telefone">Telefone</label>
-					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+						<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 					<label for="mensagem">Mensagem</label>
-					<textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
-
-					<input type="submit" value="Enviar formulário" class="enviar">
+						<textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
 				</div>
 
 				<div class="ladoB">
 					<legend>Preferência de contato</legend>
-					<label for="radio-email">
-						<input type="radio" name="contato" value="email" id="radio-email">
-						E-mail
-					</label>
+						<label for="radio-email">
+							<input type="radio" name="contato" value="email" id="radio-email">
+							E-mail
+						</label>
 
-					<label for="radio-telefone">
-						<input type="radio" name="contato" value="telefone" id="radio-telefone"> 
-						Telefone
-					</label>
+						<label for="radio-telefone">
+							<input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+							Telefone
+						</label>
 
-					<label for="radio-whatsapp">
-						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-						WhatsApp
-					</label>
+						<label for="radio-whatsapp">
+							<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+							WhatsApp
+						</label>
 
 					<legend class="prefhor">Preferência de horário</legend>
-					<select class="horario">
-						<option>Manhã</option>
-						<option>Tarde</option>
-						<option>Noite</option>
-					</select>
+						<select class="horario">
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
 
 					<table>
 						<thead>
@@ -91,6 +90,8 @@
 							</tr>
 						</tbody>
 					</table>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
 				</div>
     		</form>
 		</main>
