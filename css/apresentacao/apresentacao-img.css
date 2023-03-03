@@ -2,9 +2,10 @@
     align-content: center;
     box-shadow: 15px 15px 15px 0 #191a0a63;
     box-sizing: border-box;
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1em 1em -1em;
     opacity: 1;
     transition: 400ms;
+    width: auto;
 }
 
 .apresentacao__img:hover{

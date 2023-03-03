@@ -1,115 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
-        <title>Contato | Sempre Vidros</title>
-        
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
-        <link rel="stylesheet" href="css/fonte.css">
-        <link rel="stylesheet" href="css/cabecalho.css">
-        <link rel="stylesheet" href="css/logo.css">
-        <link rel="stylesheet" href="css/menu/menu-lista.css">
-        <link rel="stylesheet" href="css/menu/menu-item.css">
-        <link rel="stylesheet" href="css/menu/menu-link.css">
-        <link rel="stylesheet" href="css/apresentacao/apresentacao.css">
-        <link rel="stylesheet" href="css/apresentacao/apresentacao-texto.css">
-        <link rel="stylesheet" href="css/apresentacao/apresentacao-titulo.css">
-        <link rel="stylesheet" href="css/localizacao/localizacao.css">
-        <link rel="stylesheet" href="css/localizacao/localizacao-texto.css">
-        <link rel="stylesheet" href="css/localizacao/localizacao-titulo.css">
-        <link rel="stylesheet" href="css/beneficios/beneficios.css">
-        <link rel="stylesheet" href="css/beneficios/beneficios-texto.css">
-        <link rel="stylesheet" href="css/beneficios/beneficios-titulo.css">
-        <link rel="stylesheet" href="css/footer.css">
-    </head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Contato | Sempre Vidros</title>
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+	<link rel="stylesheet" href="css/fonte.css">
+	<link rel="stylesheet" href="css/cabecalho.css">
+	<link rel="stylesheet" href="css/logo.css">
+	<link rel="stylesheet" href="css/menu/menu-lista.css">
+	<link rel="stylesheet" href="css/menu/menu-item.css">
+	<link rel="stylesheet" href="css/menu/menu-link.css">
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
 
 <body>
 	<header>
-		<div class="header-container">
-			<h1><img class="logo" src="/imgs/logosv.png"></h1>
-
-			<nav>
-				<ul>
-					<li><a href="index.html">Início</a></li>
-					<li><a href="servicos.html">Serviços</a></li>
-					<li><a href="clientes.html">Clientes</a></li>
-					<li><a href="galeria.html">Galeria</a></li>
-					<li><a href="contato.html">Contato</a></li>
+		<div class="cabecalho">
+			<img class="logo" src="./imgs/logosv.png" alt="Logo Sempre Vidros">
+			<nav class="menu">
+				<ul class="menu__lista">
+					<li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
+					<li class="menu__item"><a class="menu__link" href="servicos.html">Serviços</a></li>
+					<li class="menu__item"><a class="menu__link" href="clientes.html">Clientes</a></li>
+					<li class="menu__item"><a class="menu__link" href="galeria.html">Galeria</a></li>
+					<li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
 		<main>
-			<form>
-				<div class="coluna">
-					<div class="ladoA">
-				        <label for="nomesobrenome">Nome e sobrenome</label>
-				        <input type="text" id="nomesobrenome" class="input-padrao" required>
+			<form class="form-contato">
+				<div class="ladoA">
+					<label for="nome-sobrenome">Nome e sobrenome</label>
+					<input type="text" id="nome-sobrenome" class="input-padrao" required>
 
-				        <label for="email">Email</label>
-				        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-				        <label for="telefone">Telefone</label>
-				        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-				        <label for="mensagem">Mensagem</label>
-				        <textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
 
-				        <input type="submit" value="Enviar formulário" class="enviar">
-				    </div>
+					<input type="submit" value="Enviar formulário" class="enviar">
+				</div>
 
-				    <div class="ladoB">
-				        <fieldset>
-					        <legend>Preferência de contato</legend>
-					        <label for="radio-email">
-						        <input type="radio" name="contato" value="email" id="radio-email">
-						        E-mail
-						    </label>
+				<div class="ladoB">
+					<legend>Preferência de contato</legend>
+					<label for="radio-email">
+						<input type="radio" name="contato" value="email" id="radio-email">
+						E-mail
+					</label>
 
-						    <label for="radio-telefone">
-						        <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
-						        Telefone
-						    </label>
+					<label for="radio-telefone">
+						<input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+						Telefone
+					</label>
 
-						    <label for="radio-whatsapp">
-						        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-						        WhatsApp
-						    </label>
-					    </fieldset>
+					<label for="radio-whatsapp">
+						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+						WhatsApp
+					</label>
 
-				    	<legend class="prefhor">Preferência de horário</legend>
-					    <select class="horario">
-					    	<option>Manhã</option>
-					    	<option>Tarde</option>
-					    	<option>Noite</option>
-					    </select>
+					<legend class="prefhor">Preferência de horário</legend>
+					<select class="horario">
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
 
-						<table>
-						    <thead>
-						        <tr>
-						            <th>Dia</th>
-						            <th>Horário</th>
-						        </tr>
-						    </thead>
-						    <tbody>
-						        <tr>
-						            <td>Segunda a Sexta</td>
-						            <td>8h - 18h</td>
-						        </tr>
-						    </tbody>
-						</table>
-				    </div>
-			    </div>
+					<table>
+						<thead>
+							<tr>
+								<th>Dia</th>
+								<th>Horário</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Segunda a Sexta</td>
+								<td>8h - 18h</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
     		</form>
 		</main>
 
 		<footer>
 			<p>&copy; Copyright Sempre Vidros - 2023</p>
 		</footer>
-	</body>
+</body>
 </html>

@@ -1,0 +1,63 @@
+.servicos{
+	display: flex;
+    margin: 0 auto;
+    padding: 35px 0 15px 0;
+	width: 90%;
+}
+
+.servicos li{
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+}
+
+.servicos li:hover{
+	border-color: #C78C19;
+    padding: 15px 10px;
+}
+
+.servicos li:active{
+	border-color: #088C19;
+}
+
+.servicos li:hover h2{
+	font-size: 35px;
+}
+
+.imgserv{
+	padding: 10px;
+	width: 85%;
+}
+
+.servicos h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.servicos__descricao{
+	font-size: 18px;
+    padding: 5px;
+}
+
+.orcamento{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 2em 0em 0em 0em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.orcamento:hover {
+	color: #9b6f19;
+    text-decoration: underline;
+}
+
+.footerserv{
+	padding: 1em 0em 1em 0em;
+}
