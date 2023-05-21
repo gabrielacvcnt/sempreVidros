@@ -33,6 +33,7 @@
 .imgserv{
 	padding: 10px;
 	width: 85%;
+	object-fit: cover;
 }
 
 .servicos h2{

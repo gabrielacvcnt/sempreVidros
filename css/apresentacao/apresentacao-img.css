@@ -6,6 +6,7 @@
     opacity: 1;
     transition: 400ms;
     width: auto;
+    object-fit: cover;
 }
 
 .apresentacao__img:hover{
