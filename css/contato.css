@@ -1,15 +1,15 @@
-.form-contato{
+form{
     display: flex;
     height: 530px;
     flex-direction: row;
     padding: 2em 2em 1em 2em;
 }
 
-.ladoA{
+#ladoA{
     width: 50%;
 }
 
-.ladoB{
+#ladoB{
     width: 50%;
 }
 
@@ -23,7 +23,7 @@ form label, form legend {
     margin-top: 30px;
 }
 
-.horario{
+#horario{
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@ form label, form legend {
     width: 50%;
 }
 
-.enviar {
+#enviar {
     background: grey;
     border: none;
     border-radius: 5px;
@@ -48,7 +48,7 @@ form label, form legend {
     width:40%;
 }
 
-.enviar:hover {
+#enviar:hover {
     background: darkgray;
     transform: scale(1.2);
 }

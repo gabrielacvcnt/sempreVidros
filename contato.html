@@ -37,22 +37,22 @@
 	</header>
 
 		<main>
-			<form class="form-contato">
-				<div class="ladoA">
+			<form action="" method="post">
+				<div id="ladoA">
 					<label for="nome-sobrenome">Nome e sobrenome</label>
-						<input type="text" id="nome-sobrenome" class="input-padrao" required>
+						<input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Informe o seu nome e sobrenome..." name="nome">
 
 					<label for="email">Email</label>
-						<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+						<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com" name="email">
 
 					<label for="telefone">Telefone</label>
-						<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+						<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX" name="telefone">
 
 					<label for="mensagem">Mensagem</label>
-						<textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required>
+						<textarea cols="65" rows="10" id="mensagem"></textarea class="input-padrao" required name="mensagem">
 				</div>
 
-				<div class="ladoB">
+				<div id="ladoB">
 					<legend>Preferência de contato</legend>
 						<label for="radio-email">
 							<input type="radio" name="contato" value="email" id="radio-email">
@@ -70,7 +70,7 @@
 						</label>
 
 					<legend class="prefhor">Preferência de horário</legend>
-						<select class="horario">
+						<select id="horario">
 							<option>Manhã</option>
 							<option>Tarde</option>
 							<option>Noite</option>
@@ -91,7 +91,7 @@
 						</tbody>
 					</table>
 
-					<input type="submit" value="Enviar formulário" class="enviar">
+					<input type="submit" value="Enviar formulário" id="enviar">
 				</div>
     		</form>
 		</main>
