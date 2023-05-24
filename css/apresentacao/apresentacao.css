@@ -1,4 +1,4 @@
-.apresentacao{
+#apresentacao{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -6,7 +6,7 @@
     text-align: left;
 }
 
-.apresentacao p{
+#apresentacao p{
     letter-spacing: 3px;
     margin: 0 0 1em;
 }
